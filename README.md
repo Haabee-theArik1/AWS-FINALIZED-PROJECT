@@ -32,7 +32,7 @@ instancess type is already attached to the type of AMI i choose, so the instance
 keypairs created by me. my own key pair containing my name.
 ![KP](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/KP%20.gif)
 # Network setting, Subnets and Auto-assign public IP
-I choose VPC lita_project, and subnets: lita_project-subnet-public1 to go with the inbound rules and outbound rules. when assigning public IP it will be on diable, it was enable by me to match withe the subnnets and VPC.
+I choose VPC lita_project, and subnets: lita_project-subnet-public1 to go with the inbound rules and outbound rules. when assigning public IP it will be on diable, it was enable by me to match with the subnnets and VPC.
 ![VPC, SUBNET AND ENABLE](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/VPC%2C%20SUBNET%20and%20ENABLE.gif)
 # Security group and configure storage
 Since the security group has already been created by me all i just did was to select my own security group and cnfigure setting is 8 gp2
