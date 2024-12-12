@@ -52,7 +52,7 @@ sudo systemctl enable httpd,
 ![Gitbash3](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/git%20bash%20step%203.gif)
 ![run text 2](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/run%20text%202.gif)
 # Apache 
-After connecting and runng my command on gitbash, i went back to my instance and copy the link, i paste it on another web to be sure in have successfully connect and run my Apache web text. which came out successful.
+After connecting and runng my command on gitbash, i went back to my instance and copy the link, i paste it on another web to be sure i have successfully connect and run my Apache web text. which came out successful.
 ![ Apache text](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/Text%20Apache%20.gif)
 # AWS SERVICVES USE
-The AWS services used are : VPC ( Virtual private cloud) use for creating platform for users, SUBNET: logical subdivision of an ip network known as "internet protocol" for connectivity, SG ( Security Group ) this refer to virtual firewall that controls the traffic that allow inbound rule and outbound rule and EC2 Instances (Elastic Compute Cloud) this nis a web based services that allow that allow businness to launch application program.
+The AWS services used are : VPC ( Virtual private cloud) use for creating platform for users, SUBNET: logical subdivision of an ip network known as "internet protocol" for connectivity, SG ( Security Group ) this refer to virtual firewall that controls the traffic that allow inbound rule and outbound rule and EC2 Instances (Elastic Compute Cloud) this is a web based services that allow businness to launch application program.
