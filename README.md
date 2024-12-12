@@ -35,7 +35,7 @@ keypairs created by me. my own key pair containing my name.
 I choose VPC lita_project, and subnets: lita_project-subnet-public1 to go with the inbound rules and outbound rules. when assigning public IP it will be on diable, it was enable by me to match with the subnnets and VPC.
 ![VPC, SUBNET AND ENABLE](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/VPC%2C%20SUBNET%20and%20ENABLE.gif)
 # Security group and configure storage
-Since the security group has already been created by me all i just did was to select my own security group and cnfigure setting is 8 gp2
+Since the security group has already been created by me all i just did was to select my own security group and configure setting is 8 gp2
 ![Attaching security group with ec2](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/Attaching%20security%20group%20with%20ec2.gif)
 # Instances launch successfully
 ![ Launch Instances successfully](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/Instances%20launch%20successfully.gif)
@@ -43,12 +43,11 @@ Since the security group has already been created by me all i just did was to se
 After launching instances showing successful, i clicking on the instances and click on connect, took me to the site that will help configure my instance by clicking on SSH client.
 ![connect instances](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/Connect%20to%20instances.gif)
 # GITBASH
-To help me run the following command and to install Apache
-sudo yum update -y, 
+To help me run the following command and to install Apache 
+Going to the downloaded keypairs on my download file clicking on it, it show the git bash terminal command: pasting the keypairs after copied my ssh examples which contains my keypairs and ec2 instances and paste it on gitbash, asking do i want to continue YES/NO? YES. It changes from download to "EC2 USERS@ip, after that i run the following commands to install APACHE.
 sudo yum install httpd -y, 
 sudo systemctl start httpd, 
-sudo systemctl enable httpd, 
-Going to the downloaded keypairs on my download file clicking on it, it shows the git bash terminal command: pastinging the keypairs after copied my ssh examples which contains my keypairs and ec instances and paste it on gitbash, asking do i want to continue YES/NO? YES. It changes from download to "EC2 USERS@ip, after that i run the following commands to install APACHE.
+sudo systemctl enable httpd,
 ![Gitbash2](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/git%20bash%20step%202.gif)
 ![Gitbash3](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/git%20bash%20step%203.gif)
 ![run text 2](https://github.com/Haabee-theArik1/AWS-Web-Application-Project/blob/main/run%20text%202.gif)
